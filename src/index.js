@@ -1,18 +1,16 @@
 import React from "react";
 import { render } from "react-dom";
-import { Router, Route, hashHistory } from "react-router";
+import { Router, hashHistory } from "react-router";
 import { Provider } from "react-redux";
 import store from "./store";
 import DevTools from "./DevTools";
 import * as serviceWorker from "./serviceWorker";
 import { getCountries } from "./actions/actions-countries";
-import Navigation from "./presentational/navigation.component";
+import routes from './routes';
 
 render(
   <Provider store={store}>
-    <Router history={hashHistory}>
-      <Route path="/" component={Navigation} />
-    </Router>
+    <Router history={hashHistory} routes={routes}/>
     <div>
       <DevTools />
     </div>

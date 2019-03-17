@@ -7,10 +7,13 @@ import DevTools from "./DevTools";
 import * as serviceWorker from "./serviceWorker";
 import { getCountries } from "./actions/actions-countries";
 import routes from './routes';
+import './country.css';
 
 render(
   <Provider store={store}>
-    <Router history={hashHistory} routes={routes}/>
+      <div>
+        <Router history={hashHistory} routes={routes}/>
+      </div>
     <div>
       <DevTools />
     </div>

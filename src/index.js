@@ -5,7 +5,6 @@ import { Provider } from "react-redux";
 import store from "./store";
 import DevTools from "./DevTools";
 import * as serviceWorker from "./serviceWorker";
-import { getCountries } from "./actions/actions-countries";
 import routes from './routes';
 import './country.css';
 
@@ -21,7 +20,6 @@ render(
   document.getElementById("root")
 );
 
-store.dispatch(getCountries());
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

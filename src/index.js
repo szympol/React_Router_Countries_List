@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import { Router, hashHistory } from "react-router";
 import { Provider } from "react-redux";
 import store from "./store";
-import DevTools from "./DevTools";
+/* import DevTools from "./DevTools"; */
 import * as serviceWorker from "./serviceWorker";
 import routes from './routes';
 import './country.css';
@@ -13,9 +13,9 @@ render(
       <div>
         <Router history={hashHistory} routes={routes}/>
       </div>
-    <div>
+    {/* <div>
       <DevTools />
-    </div>
+    </div> */}
   </Provider>,
   document.getElementById("root")
 );

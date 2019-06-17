@@ -1,6 +1,59 @@
-# 28_React_Router_CountriesList
+[<img src="https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG?raw=true" align="right" alt="React Router ContriesList" width="40%">](https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG)
+
+# React Router CountriesList
+
+**`[React, React-router, Redux]`**
+
+It is a Countries List app in SPA architecture. This app allows users to view the flags of countries and click on the flag of interest to see detailed information about the selected country. The app consists of a few views, which are responsible for displaying:
+
+- all countries from the database,
+- countries on a given continent,
+- detailed information about the selected country,
+- a page with a contact.
+
+The final functionality of the project:
+
+- listing all countries,
+- searching for countries by name,
+- deleting the state,
+- filtering countries from a selected continent,
+- displaying detailed information about the selected country.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Started
+
+<!-- - [View project online](https://szympol.github.io/28_React_Router_CountriesList) -->
+This project requires a server to start working.
+
+Please follow instructions below, if you are willing to run the project locally.
+
+### Prerequisites
+
+Both [Git](https://git-scm.com/downloads) and [Node](https://nodejs.org/en/download/) are required to run this project locally.
+
+### Installing
+
+Please copy and paste below commands to your Git terminal step by step to get a development env running.
+
+Download a repository:
+
+```node
+git clone git@github.com:szympol/28_React_Router_CountriesList.git countriesListReactApp
+```
+
+Go to the project working directory:
+
+```node
+cd countriesListReactApp
+```
+
+Install all of the dependencies with the following command:
+
+```node
+npm install
+```
 
 ## Available Scripts
 

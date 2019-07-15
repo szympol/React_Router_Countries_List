@@ -24,8 +24,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-<!-- - [View project online](https://szympol.github.io/28_React_Router_CountriesList) -->
 This project requires a server to start working.
+
+- [View project online](https://frosty-colden-f63461.netlify.com/#/)
 
 Please follow instructions below, if you are willing to run the project locally.
 

@@ -1,6 +1,6 @@
 [<img src="https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG?raw=true" align="right" alt="React Router ContriesList" width="40%">](https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG)
 
-# React Router CountriesList
+# React Router Countries List
 
 **`[React, React-router, Redux]`**
 
@@ -41,7 +41,7 @@ Please copy and paste below commands to your Git terminal step by step to get a 
 Download a repository:
 
 ```node
-git clone git@github.com:szympol/28_React_Router_CountriesList.git countriesListReactApp
+git clone git@github.com:szympol/React_Router_Countries_List.git countriesListReactApp
 ```
 
 Go to the project working directory:

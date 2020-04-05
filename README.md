@@ -1,4 +1,4 @@
-[<img src="https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG?raw=true" align="right" alt="React Router ContriesList" width="40%">](https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG)
+[<img src="https://github.com/szympol/React_Router_Countries_List/blob/master/images/main.JPG?raw=true" align="right" alt="React Router ContriesList" width="40%">](https://github.com/szympol/React_Router_Countries_List/blob/master/images/main.JPG)
 
 # React Router Countries List
 
